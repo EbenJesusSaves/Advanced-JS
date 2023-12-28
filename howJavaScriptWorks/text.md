@@ -33,4 +33,4 @@ Closures helps to store functions to prevent them from rerunning and saving memo
 # PROMISES
 
 \*\*
-Promises uses web apis to make request but keeps track of them in the javaScript memory
+Promises uses web apis to make request but keeps track of them in the javaScript memory \* let see promises as functions with two part ways first one as an empty object which gets attached to the \* function after first execution and second way being the fetch given to the browser api \*
