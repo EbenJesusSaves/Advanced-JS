@@ -19,3 +19,18 @@ function userCreator(name, score) {
 const user1 = userCreator("Will", 3);
 const user2 = userCreator("Tim", 5);
 user1.increment();
+
+//what classes does under the hood
+function userCreator(name, score) {
+  this.name = name;
+  this.score = score;
+}
+userCreator.prototype.increment = function () {
+  this.score++;
+};
+userCreator.prototype.login = function () {
+  console.log("login");
+};
+
+const user4 = new userCreator("Eva", 9);
+user1.increment();
