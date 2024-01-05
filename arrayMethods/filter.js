@@ -8,3 +8,10 @@ const result = words.filter((word) => word.length > 6);
 
 console.log(result);
 // Expected output: Array ["exuberant", "destruction", "present"]
+
+const person = [];
+
+//real world example
+const deleteUser = (currentId) => {
+  return person.filter((id) => id != currentId);
+};
